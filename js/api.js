@@ -103,4 +103,9 @@ function getArticleById() {
       // Sisipkan komponen card ke dalam elemen dengan id #content
       document.getElementById("body-content").innerHTML = articleHTML;
     });
+  // Kode untuk save for later
+  var save = document.getElementById("save");
+  save.onclick = function () {
+    console.log("Tombol FAB di klik.");
+  };
 }
